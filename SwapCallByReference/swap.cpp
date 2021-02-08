@@ -4,11 +4,11 @@ using namespace std;
 void swap(int & a, int & b);
 int main(){
     int a = 3 ,b = 4;
-    cout<<"Before a ="<<a<<" and  b = "<<b<<endl;
+    cout<<"Before a = "<<a<<" and  b = "<<b<<endl;
 
     swap(a,b);
 
-    cout<<"After a ="<<a<<" and  b = "<<b<<endl;
+    cout<<"After a = "<<a<<" and  b = "<<b<<endl;
 
 
 }
