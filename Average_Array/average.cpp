@@ -12,6 +12,7 @@ int main(){
 
     // reading the grades
     for(ind = 0; ind < numberOfStudents ; ind++){
+        cout<<"Please enter the grades separated by space "<<endl;
         cin>>currGrade;
         gradesList[ind] = currGrade;
     }
