@@ -6,7 +6,7 @@ void printAscDsc(int start, int end){
         cout<<start<<endl;
 
     }else{
-        //cout<<start<<endl;
+        cout<<start<<endl;
         printAscDsc(start+1, end);
         cout<<start<<endl;
     }
